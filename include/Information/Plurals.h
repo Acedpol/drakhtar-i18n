@@ -10,7 +10,6 @@
 
 class Plurals {
  private:
-  // punctuation marks symbols:
   std::string zero_{};
   std::string one_{};
   std::string two_{};

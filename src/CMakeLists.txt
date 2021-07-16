@@ -11,7 +11,7 @@ set(I18N_SOURCES
 	"Utils/Util.cpp"
 	"LocaleManager.cpp")
 
-add_library(i18n SHARED ${I18N_SOURCES})
+add_library(i18n SHARED ${I18N_SOURCES} "Information/Units.cpp")
 target_compile_features(i18n PUBLIC cxx_std_17)
 
 # If Linux, we need to make sure we include and link to libuuid.
