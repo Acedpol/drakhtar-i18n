@@ -1,2 +1,10 @@
 NAME="Español"
 NUMERIC_SYSTEM="latn"
+
+PLZERO="cero"
+PLONE="uno"
+PLTWO="dos"
+PLFEW="poco"
+PLMANY="mucho"
+PLOTHER="otro"
+PLVALUE="=value"

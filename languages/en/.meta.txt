@@ -1,2 +1,10 @@
 NAME="English"
 NUMERIC_SYSTEM="latn"
+
+PLZERO="zero"
+PLONE="one"
+PLTWO="two"
+PLFEW="few"
+PLMANY="many"
+PLOTHER="other"
+PLVALUE="=value"

@@ -17,7 +17,7 @@ set(SOURCES
   "LocaleManager.cpp"
   "main.cpp")
 
-add_executable(i18n_tests ${SOURCES})
+add_executable(i18n_tests ${SOURCES} "Information/Plurals.cpp")
 target_link_libraries(i18n_tests
   PUBLIC
     i18n
